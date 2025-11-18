@@ -422,6 +422,9 @@ header.sticky{
     .protfolio-container{
         grid-template-columns: 1fr;
     }
+    .home-img{
+        width: 50vw;
+    }
 }
 @media (max-width: 450px){
     html{
