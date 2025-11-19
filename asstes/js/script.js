@@ -47,19 +47,6 @@
     ScrollReveal().reveal('.home-content h1, .about-img' ,{origin: 'left'});
     ScrollReveal().reveal('.home-content p, .about-content' ,{origin: 'right'});
 
-// =================  typed js =================
-    const typed = new Typed('.multiple-text',{
-        String: ['Frontend Developer','Graphic Design','DB Designer'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true,
-    });
-
-
-
-
-
 
 
 // ==================Download CV ==================
@@ -75,4 +62,5 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
   
     document.body.removeChild(link);
   });
+
   
